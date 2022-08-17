@@ -137,7 +137,7 @@ a {
 
 .product-price {
   font-weight: 800;
-  margin-top: 6px;
+  margin: 6px 0 10px 0;
   color: black;
 }
 
@@ -270,4 +270,26 @@ a {
   font-size: 30px;
   display: flex;
   gap: 10px;
+}
+
+.product-detail-container {
+  display: flex;
+  gap: 40px;
+  margin: 40px;
+  margin-top: 60px;
+  color: #324d67;
+}
+
+.product-detail-image {
+  border-radius: 15px;
+  background-color: #ebebeb;
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.product-detail-image:hover {
+  background-color: #f02d34;
+  transform: scale(1.1, 1.1);
 }
